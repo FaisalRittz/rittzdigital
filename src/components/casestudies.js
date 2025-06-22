@@ -63,10 +63,11 @@ export default function Casestudies() {
   }, []);
 
   return (
-    <section className="px-6 md:px-16 py-16 bg-white text-gray-800">
+    <section className="relative px-6 sm:px-10 lg:px-20 py-16 bg-white text-gray-800">
       <div>
+        {/* Animated Heading */}
         <h2
-          className="text-[95px] font-bold leading-tight overflow-hidden"
+          className="text-[clamp(2.5rem,10vw,6rem)] font-bold leading-tight overflow-hidden"
           ref={caseRef}
         >
           <div
@@ -87,11 +88,12 @@ export default function Casestudies() {
           </div>
         </h2>
 
-        <div className="flex align-middle ">
-          <div className="h-auto flex align-center justify-center p-1">
-            <div className="h-0.5 w-[175px] bg-gray-300 my-7 mx-5 "></div>
+        {/* Subline and line */}
+        <div className="flex flex-wrap items-center mt-6">
+          <div className="h-auto flex items-center justify-center p-1">
+            <div className="h-0.5 w-40 sm:w-52 bg-gray-300 mx-5"></div>
           </div>
-          <div className="text-sm text-gray-500 mt-1 text-left leading-[1.75]">
+          <div className="text-sm sm:text-base text-gray-500 leading-[1.75]">
             Innovation In Action.
             <br />
             Impact By Design.
@@ -99,15 +101,22 @@ export default function Casestudies() {
         </div>
       </div>
 
-      <div className="w-48 h-4 bg-red-500 rounded-br-full mt-6 absolute left-0"></div>
+      {/* Decorative Red Bar */}
+      <div className="absolute w-48 h-4 bg-red-500 rounded-br-full mt-6 left-0"></div>
 
-      <div className="text-[18px] max-w-2xl mt-14 leading-[40px]">
-        <p ref={paraRef} className="ml-16 text-gray-500 flex flex-wrap">
-          <span className="text-4xl font-bold text-black mr-[2px]">A</span>
+      {/* Paragraph */}
+      <div className="mt-14 max-w-4xl mx-auto px-2 sm:px-6 lg:px-0">
+        <p
+          ref={paraRef}
+          className="text-[17px] sm:text-[18px] leading-[32px] sm:leading-[38px] text-gray-500 flex flex-wrap"
+        >
+          <span className="text-3xl sm:text-4xl font-bold text-black mr-[2px]">
+            A
+          </span>
           {paragraph.split("").map((char, index) => (
             <span
               key={index}
-              className="para-letter inline-block "
+              className="para-letter inline-block"
               style={{ color: "#888888" }}
             >
               {char === " " ? "\u00A0" : char}
@@ -116,8 +125,9 @@ export default function Casestudies() {
         </p>
       </div>
 
-      <div className="mt-8 ml-16">
-        <button className="mt-4 w-[457px] px-6 py-2 text-sm border border-gray-400 text-black relative overflow-hidden group">
+      {/* CTA Button */}
+      <div className="mt-10 flex justify-center lg:justify-start lg:ml-16">
+        <button className="w-full sm:w-[20rem] md:w-[24rem] px-6 py-4 text-base sm:text-lg border border-gray-400 text-black relative overflow-hidden group">
           <span
             className="absolute bottom-0 left-0 w-0 h-0 bg-black rounded-full transition-all duration-400 ease-out group-hover:w-[60rem] group-hover:h-[60rem]"
             style={{ transform: "translate(-50%, 50%)" }}

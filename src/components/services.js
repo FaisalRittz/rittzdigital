@@ -7,7 +7,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function Services() {
   const serviceRef = useRef();
-
   const heading = "Our Services";
 
   useEffect(() => {
@@ -32,38 +31,37 @@ export default function Services() {
   }, []);
 
   return (
-    <div className="bg-green-600 text-white px-6 md:px-16 py-12 relative">
-      <div className="">
-        <div className="text-right overflow-hidden">
-          <h2
-            className="text-[95px] font-bold leading-tight overflow-hidden"
-            ref={serviceRef}
-          >
-            <div className="flex flex-wrap justify-end">
-              {heading.split("").map((char, i) => (
-                <span key={i} className="overflow-hidden inline-block">
-                  <span className="letter inline-block text-white">
-                    {char === " " ? "\u00A0" : char}
-                  </span>
+    <div className="bg-green-600 text-white px-4 sm:px-6 md:px-16 py-12 relative">
+      {/* Heading */}
+      <div className="text-center md:text-right overflow-hidden mb-6 sm:mb-10">
+        <h2
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-[95px] font-bold leading-tight"
+          ref={serviceRef}
+        >
+          <div className="flex flex-wrap justify-center md:justify-end">
+            {heading.split("").map((char, i) => (
+              <span key={i} className="overflow-hidden inline-block">
+                <span className="letter inline-block text-white">
+                  {char === " " ? "\u00A0" : char}
                 </span>
-              ))}
-            </div>
-          </h2>
-        </div>
-
-        <div className="flex align-middle justify-end  mb-5">
-          <div className="h-auto flex align-center justify-center">
-            <div className="h-0.5 w-[208px] bg-gray-300 my-7  mx-1 "></div>
+              </span>
+            ))}
           </div>
-          <p className="text-white  mt-1 text-left leading-[1.75]">
-            Affordable innovation,
-            <br />
-            built for impact.
-          </p>
-        </div>
+        </h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6">
+      {/* Subheading + Divider */}
+      <div className="flex flex-col md:flex-row md:justify-end items-center md:items-start mb-10">
+        <div className="h-0.5 w-32 sm:w-48 bg-white/60 mb-4 md:mb-0 md:mr-4" />
+        <p className="text-sm sm:text-base md:text-lg text-center md:text-left leading-snug">
+          Affordable innovation,
+          <br />
+          built for impact.
+        </p>
+      </div>
+
+      {/* Services Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-y-10 gap-x-4">
         {[
           {
             img: "/assets/Our Services.png",
@@ -75,7 +73,7 @@ export default function Services() {
           },
           {
             img: "/assets/Our Services.png",
-            title: "Backend\nDevelopment & API Integration",
+            title: "Backend Development\n& API Integration",
           },
           {
             img: "/assets/Our Services 1.png",
@@ -83,7 +81,7 @@ export default function Services() {
           },
           {
             img: "/assets/Our Services.png",
-            title: "Ongoing\nMaintenance & Support",
+            title: "Ongoing Maintenance\n& Support",
           },
           {
             img: "/assets/Our Services 1.png",
@@ -92,17 +90,22 @@ export default function Services() {
         ].map((item, idx) => (
           <div
             key={idx}
-            className="text-black relative transition-all duration-300 ease-in-out hover:-translate-y-5 hover:scale-105"
+            className="text-black relative transition-all duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 w-full max-w-[240px] mx-auto"
           >
-            <img src={item.img} />
-            <p className="text-center font-medium absolute bottom-15 left-0 right-0 whitespace-pre-line">
+            <img
+              src={item.img}
+              alt={item.title}
+              className="w-full h-auto rounded-xl"
+            />
+            <p className="text-center font-medium mt-3 whitespace-pre-line text-sm sm:text-base">
               {item.title}
             </p>
           </div>
         ))}
       </div>
 
-      <div className="mt-10">
+      {/* Bottom Link */}
+      <div className="mt-12 flex justify-center md:justify-start">
         <a
           href="#"
           className="text-white text-sm flex items-center gap-2 hover:underline"
