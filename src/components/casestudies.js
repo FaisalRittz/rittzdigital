@@ -123,7 +123,7 @@ export default function Casestudies() {
             style={{ transform: "translate(-50%, 50%)" }}
           ></span>
           <span className="relative z-10 transition-all duration-300 group-hover:text-white">
-            Let's Talk
+            Let&apos;s Talk
           </span>
         </button>
       </div>
