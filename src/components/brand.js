@@ -8,7 +8,6 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Brand() {
   const cubeRef = useRef(null);
   const heroRef = useRef(null);
-
   const textRef = useRef(null);
   const bottomTextRef = useRef(null);
   const imageRef = useRef(null);

@@ -11,7 +11,7 @@ export default function main() {
   return (
     <>
       <Hero/>
-      <Ourgoals/>
+      {/* <Ourgoals/>  */}
       <Products/>
       <Idea/>
       <Services/>
