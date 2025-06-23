@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="w-full px-4 sm:px-6 md:px-10 py-3 sm:py-4 md:py-5 flex items-center justify-between bg-transparent z-40">
+      <header className="w-full px-4 sm:px-6  md:px-10 py-3 pt-6 sm:py-4 md:py-5 flex items-center justify-between bg-transparent z-40">
         {/* Logo */}
         <div className="flex items-center">
           <img
@@ -25,7 +25,7 @@ export default function Header() {
         <div className="flex items-center gap-3 sm:gap-4 md:gap-6">
           <button
             onClick={handleContactClick}
-            className="px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm bg-white text-black border border-black rounded-md relative overflow-hidden group"
+            className="px-3 hidden sm:block sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm bg-white text-black border border-black rounded-md relative overflow-hidden group"
           >
             <span
               className="absolute bottom-0 left-0 w-0 h-0 bg-black rounded-full transition-all duration-300 ease-out group-hover:w-[60rem] group-hover:h-[60rem]"
@@ -36,11 +36,11 @@ export default function Header() {
             </span>
           </button>
 
-          <span className="text-sm sm:text-base md:text-lg font-semibold text-black">
+          <span className="text-sm hidden sm:block sm:text-base md:text-lg font-semibold text-black">
             Menu
           </span>
 
-          <div className="w-5 sm:w-6 h-5 sm:h-6">
+          <div className="w-5 sm:w-6 cursor-pointer h-5 sm:h-6">
             <img
               src="/assets/align-justify.png"
               alt="Menu Icon"

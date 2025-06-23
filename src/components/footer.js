@@ -5,7 +5,7 @@ export default function Footer() {
         {/* Left Column */}
         <div>
           {/* Logo */}
-          <div className="flex items-center space-x-2 mb-6">
+          <div className="flex items-center justify-center sm:justify-normal space-x-2 mb-6">
             <img
               src="/assets/rittz_logo.png"
               alt="Logo"
@@ -14,7 +14,7 @@ export default function Footer() {
           </div>
 
           {/* Nav Links */}
-          <div className="flex flex-wrap gap-6 mb-6 text-sm sm:text-base">
+          <div className="flex flex-wrap gap-6 mb-6 text-sm sm:text-base justify-center sm:justify-normal">
             <a href="#" className="hover:text-orange-500">Home</a>
             <a href="#" className="hover:text-orange-500">Services</a>
             <a href="#" className="hover:text-orange-500">About</a>

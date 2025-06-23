@@ -96,9 +96,9 @@ export default function Hero() {
       >
         <Header />
 
-        <div className="absolute w-full mt-30">
-          <h1 className="text-7xl ml-[8rem] mt-[5rem] relative font-semibold leading-tight z-0">
-            <span className="text-white font-bold">We</span> Build Products
+        <div className="absolute w-full sm:mt-30 mt-10">
+          <h1 className="sm:text-7xl text-3xl sm:ml-[8rem]  ml-4 mt-24 sm:mt-[5rem] relative font-semibold leading-tight z-0">
+            <span className="font-bold text-4xl sm:text-8xl">W</span>e Build Products
             <br />
             That <span className="font-bold">Scale —</span>
             <br />
@@ -107,7 +107,7 @@ export default function Hero() {
 
           <div
             ref={cubeRef}
-            className="absolute w-[12rem] h-[12rem] -bottom-15 -right-23 rounded-[40px] rotate-45 transform-style-preserve-3d z-10"
+            className="absolute overflow-hidden w-[7rem] h-[7rem] -bottom-56 sm:w-[12rem] right-7 sm:h-[12rem] sm:-bottom-15 sm:-right-23 rounded-full rotate-45 transform-style-preserve-3d z-10"
             style={{ transformStyle: "preserve-3d" }}
           >
             <div
@@ -130,8 +130,8 @@ export default function Hero() {
             <Brand />
           </div>
 
-          <div className="absolute bg-blue-600 -bottom-55 right-12 w-[12rem] rotate-45 rounded-[40px] h-[13rem] z-0"></div>
-          <div className="absolute bg-green-700 bottom-19 right-10 w-[12rem] h-[13rem] rotate-45 rounded-[40px] z-0"></div>
+          <div className="absolute bg-green-600 -right-16 top-[26rem] sm:-bottom-55 sm:right-12 sm:w-[12rem] w-[7.5rem] rotate-45 rounded-full sm:h-[13rem] h-[7.5rem] z-0"></div>
+          <div className="absolute bg-[#F87558] -bottom-32 -right-24 sm:bottom-19 sm:right-10 w-[10rem] h-[10rem] sm:w-[12rem] sm:h-[12rem] rotate-45 rounded-full z-0"></div>
         </div>
       </main>
     </>
