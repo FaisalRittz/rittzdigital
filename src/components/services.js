@@ -120,18 +120,20 @@ export default function Services() {
         ].map((item, idx) => (
           <div
             key={idx}
+
             className="relative transition-all duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 w-[240px] flex-shrink-0 md:w-full mx-auto rounded-xl overflow-hidden"
+
           >
             <img
               src={item.img}
               alt={item.title}
               className="w-full h-auto object-cover"
             />
-            <div className="absolute inset-0 bg-transparent flex items-center justify-center px-2">
-              <p className="text-gray-700 text-center font-medium whitespace-pre-line text-lg sm:text-xl">
-                {item.title}
-              </p>
-            </div>
+
+            <p className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center font-medium mt-3 whitespace-pre-line text-sm sm:text-base">
+              {item.title}
+            </p>
+
           </div>
         ))}
       </div>
