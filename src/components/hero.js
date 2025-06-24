@@ -111,7 +111,7 @@ export default function Hero() {
             style={{ transformStyle: "preserve-3d" }}
           >
             <div
-              className="absolute w-full h-full rounded-[40px] bg-amber-500 p-20"
+              className="absolute w-full h-full rounded-[20px] bg-amber-500 p-20"
               style={{ transform: "translateZ(244px)" }}
             ></div>
             <div
@@ -131,7 +131,7 @@ export default function Hero() {
           </div>
 
           <div className="absolute bg-green-600 -right-16 top-[26rem] sm:-bottom-55 sm:right-12 sm:w-[12rem] w-[7.5rem] rotate-45 rounded-full sm:h-[13rem] h-[7.5rem] z-0"></div>
-          <div className="absolute bg-[#F87558] -bottom-32 -right-24 sm:bottom-19 sm:right-10 w-[10rem] h-[10rem] sm:w-[12rem] sm:h-[12rem] rotate-45 rounded-full z-0"></div>
+          <div className="absolute bg-[#F87558] -bottom-32 -right-24 sm:bottom-28 sm:right-14 w-[9rem] h-[9rem] sm:w-[12rem] sm:h-[12rem] rotate-45 rounded-full z-0"></div>
         </div>
       </main>
     </>

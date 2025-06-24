@@ -168,16 +168,16 @@ bottomImages.forEach((img, i) => {
     <div
       ref={heroRef}
       style={{ perspective: "1300px" }}
-      className="flex justify-center items-center h-[120vh] "
+      className="flex flex-row justify-center items-center h-[120vh] "
     >
       <div
         ref={textRef}
-        className="absolute  text-left w-full z-10 transition-opacity duration-300 opacity-100"
-      >
-        <p className="text-[2rem] font-semibold text-gray-800">
+        className="absolute text-left w-full z-10 transition-opacity duration-300 opacity-100"
+      > 
+        <p className="sm:text-[2rem] text-lg font-semibold text-gray-800">
           Behind The Brand
         </p>
-        <h2 className="text-[2.5rem] font-semibold leading-snug">
+        <h2 className="sm:text-[2.5rem] text-[2.1rem] font-semibold leading-snug">
           We are not afraid. we are <br />
           your partners. <br />
           we build unique with you.
@@ -240,10 +240,10 @@ bottomImages.forEach((img, i) => {
         ref={bottomTextRef}
         className="absolute top-[22rem] transition-opacity duration-300 opacity-0  text-left w-full z-10"
       >
-        <p className="text-[2rem] font-semibold text-yellow-500">
+        <p className="text-lg sm:text-[2rem] font-semibold text-yellow-500">
           Behind The Brand
         </p>
-        <p className="text-[2.5rem] text-black font-semibold">
+        <p className="sm:text-[2.5rem] text-[1.9rem] text-black font-semibold">
           we <span className="text-yellow-500 font-semibold">blend design</span>
           , tech, and creativity
           <br />
@@ -257,7 +257,7 @@ bottomImages.forEach((img, i) => {
 
       <div
         ref={cubeRef}
-        className="relative w-[70rem] h-[30rem] mr-[3rem] rounded-[40px] transform-style-preserve-3d "
+        className="relative w-[17rem] sm:w-[70rem] h-[30rem] sm:mr-[3rem] -mr-5 sm:-mr-0  rounded-[40px] transform-style-preserve-3d "
         style={{ transformStyle: "preserve-3d" }}
       >
         

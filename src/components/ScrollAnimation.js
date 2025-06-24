@@ -34,6 +34,6 @@ export default function ScrollAnimatedDiv() {
   return (
     <div
       ref={boxRef}
-      className="absolute top-25 -left-31 w-[825px]  h-[450px] bg-amber-500 z-0 "></div>
+      className="absolute hidden md:block top-25 -left-31 w-[825px]  h-[450px] bg-amber-500 z-0 "></div>
   );
 }
