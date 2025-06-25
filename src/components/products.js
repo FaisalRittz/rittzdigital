@@ -54,17 +54,17 @@ export default function Products() {
         {/* Logos Section */}
         <div className="grid  sm:grid-cols-3 gap-6 place-items-center w-full">
           {[
-            "Group 1000001219",
-            "Group 1000001220",
-            "Group 1000001207",
-            "Group 1000001218",
-            "Group 1000001221",
-            "Group 1000001223",
+            "discover",
+            "scale",
+            "design",
+            "launch",
+            "test&Iterate",
+            "build",
           ].map((name, index) => (
             <div key={index} className={`${index%2!=0 ? 'mr-20' : 'ml-10 sm:ml-0'} flex`}>
               <img
                 
-                src={`/assets/${name}.png`}
+                src={`/assets/${name}.svg`}
                 alt={name}
                 className={` w-56 sm:w-60 transition-transform duration-300 hover:-translate-y-2`}
               />

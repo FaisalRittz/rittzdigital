@@ -26,7 +26,7 @@ export default function Casestudies() {
   ];
 
   const paragraph =
-    "At Ritz Digital, we’re proud of the products we’ve built — and even prouder of the trust our clients place in us to build them right. We collaborate with businesses across industries to bring their ideas to life, with solutions that are scalable, user-focused, and impactful. Each project we take on is a partnership. We dig deep into your goals, create intuitive experiences, and use technology that powers real growth.";
+    "t Ritz Digital, we’re proud of the products we’ve built — and even prouder of the trust our clients place in us to build them right. We collaborate with businesses across industries to bring their ideas to life, with solutions that are scalable, user-focused, and impactful. Each project we take on is a partnership. We dig deep into your goals, create intuitive experiences, and use technology that powers real growth.";
 
   useEffect(() => {
     const letters = caseRef.current.querySelectorAll(".letter");
@@ -77,7 +77,7 @@ export default function Casestudies() {
             {caseText.map((item, index) => (
               <span key={index} className="overflow-hidden">
                 <span
-                  className={`letter inline-block text-gray-800 ${
+                  className={`letter inline-block text-[#494848] ${
                     item.className || ""
                   }`}
                 >
@@ -90,10 +90,10 @@ export default function Casestudies() {
 
         {/* Subline and line */}
         <div className="flex flex-wrap items-center mt-6">
-          <div className="h-auto flex items-center justify-center p-1">
-            <div className="h-0.5 w-40 sm:w-52 bg-gray-300 mx-5"></div>
+          <div className="h-auto flex  items-center justify-center p-1">
+            <div className="h-0.5 w-20  sm:w-52 bg-gray-300 mx-5"></div>
           </div>
-          <div className="text-sm sm:text-base text-gray-500 leading-[1.75]">
+          <div className="text-sm  sm:text-base text-gray-500 leading-[1.75]">
             Innovation In Action.
             <br />
             Impact By Design.
