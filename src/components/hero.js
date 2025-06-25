@@ -125,7 +125,7 @@ export default function Hero() {
 
           <div
             ref={textRef}
-            className="absolute bottom-[-40rem] right-[10%] text-[50px] font-bold z-30"
+            className="absolute bottom-[-50rem] sm:bottom-[-40rem] right-[10%] text-[50px] font-bold z-30"
           >
             <Brand />
           </div>
