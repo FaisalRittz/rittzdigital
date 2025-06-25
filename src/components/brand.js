@@ -172,9 +172,9 @@ bottomImages.forEach((img, i) => {
     >
       <div
         ref={textRef}
-        className="absolute  top-28 lg:top-96 text-left w-full z-10 transition-opacity duration-300 opacity-100"
+        className="absolute  top-44 lg:top-96 text-left w-full z-10 transition-opacity duration-300 opacity-100"
       > 
-        <p className="sm:text-[2rem] text-lg font-semibold text-gray-800">
+        <p className="sm:text-[2rem] text-[1.5rem] font-semibold text-gray-800">
           Behind The Brand
         </p>
         <h2 className="sm:text-[2.5rem] text-[2.1rem] font-semibold leading-[1.3] sm:leading-snug">
@@ -186,7 +186,7 @@ bottomImages.forEach((img, i) => {
 
       <div
         ref={imageRef}
-        className="absolute mr-[-4rem] transition-opacity duration-300  border-black bottom-20 sm:bottom-52 right-16 sm:right-[12rem] w-60 h-60 bg-white rounded-md z-10 opacity-100"
+        className="absolute mr-[-4rem] transition-opacity duration-300  border-black bottom-40 sm:bottom-52 right-16 sm:right-[12rem] w-60 h-60 bg-white rounded-md z-10 opacity-100"
       >
         <img
           src="/assets/Rectangle 4206.png"
@@ -212,7 +212,7 @@ bottomImages.forEach((img, i) => {
 
       <div
         ref={bottomImageRef}
-        className="absolute sm:top-[20rem] top-24 sm:mr-[-54rem] transition-opacity duration-300  w-60 h-60 bg-white border border-yellow-500 rounded-md z-10 opacity-0"
+        className="absolute sm:top-[20rem] top-40 sm:mr-[-54rem] transition-opacity duration-300  w-60 h-60 bg-white border border-yellow-500 rounded-md z-10 opacity-0"
       >
         <img
           src="/assets/Rectangle 4206.png"
@@ -238,9 +238,9 @@ bottomImages.forEach((img, i) => {
 
       <div
         ref={bottomTextRef}
-        className="absolute top-[22rem] transition-opacity duration-300 opacity-0  text-left w-full z-10"
+        className="absolute top-[28rem] sm:top-[20rem] transition-opacity duration-300 opacity-0  text-left w-full z-10"
       >
-        <p className="text-lg sm:text-[2rem] font-semibold text-yellow-500">
+        <p className="text-[1.5rem] sm:text-[2rem] font-semibold text-yellow-500">
           Behind The Brand
         </p>
         <p className="sm:text-[2.5rem] text-[1.9rem] text-black font-semibold">
