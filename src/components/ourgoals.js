@@ -58,7 +58,7 @@ export default function Ourgoals() {
 
   return (
     <>
-      <section className="bg-white py-10 ">
+      <section className="bg-white sm:py-10 py-4 ">
         <div className="max-w-7xl mx-auto">
 
           <div className="relative">
@@ -69,7 +69,7 @@ export default function Ourgoals() {
                 <div className="flex sm:block mb-5 relative justify-center sm:justify-normal">
 
                  <div className="  flex sm:flex-row mt-20 flex-col gap-10">
-                  <div className="bg-white  hover:bg-gray-100 transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-md rounded-lg inset-shadow-sm inset-shadow-gray-300 flex flex-col justify-center text-center p-6 sm:w-[362px] sm:h-[282px] sm:ml-5 mx-2">
+                  <div className="bg-white  hover:bg-gray-100 transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-md rounded-lg inset-shadow-sm inset-shadow-gray-300 flex flex-col justify-center text-center p-6 sm:w-[362px] sm:h-[282px] sm:ml-5 mx-4">
                     <div ref={anime1} className="w-full relative mb-10">
                       <img src="/assets/Rectangle 4156.png" alt="Icon 1" className="absolute  top-0 left-35 " />
                       <img src="/assets/Rectangle 4157.png" alt="Icon 1" className="absolute -top-2 left-38 " />
@@ -80,7 +80,7 @@ export default function Ourgoals() {
 
                   </div>
 
-                  <div className="bg-white hover:bg-gray-100 transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-md rounded-lg inset-shadow-sm inset-shadow-gray-300 flex flex-col justify-center text-center p-6 sm:w-[362px] sm:h-[282px] sm:ml-5 mx-2">
+                  <div className="bg-white hover:bg-gray-100 transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-md rounded-lg inset-shadow-sm inset-shadow-gray-300 flex flex-col justify-center text-center p-6 sm:w-[362px] sm:h-[282px] sm:ml-5 mx-4">
                     <div ref={anime2} className="w-full relative mb-10">
                       <img src="/assets/Rectangle 4158.png" alt="Icon 2" className=" absolute  top-0 left-35" />
                       <img src="/assets/Rectangle 4161.png" alt="Icon 2" className="absolute  top-0 left-35" />
@@ -99,7 +99,7 @@ export default function Ourgoals() {
                   </h2>
                   <div className="flex align-middle  justify-end">
                     <div className="h-auto flex align-center justify-center">
-                      <div className="h-0.5  w-[111px] bg-gray-300 my-7  mx-1 "></div>
+                      <div className="h-0.5 w-14  sm:w-[111px] bg-gray-300 my-7  mx-1 "></div>
                     </div>
                     <div className="text-sm text-gray-500 mt-1 text-right sm:text-left leading-[1.75]">Code And Rules,<br />Creativity and Passion.</div>
                   </div>
@@ -110,7 +110,7 @@ export default function Ourgoals() {
                 {/* Second box Div */}
 
  <div className="flex flex-col gap-5 sm:flex-row ">
-                <div className="bg-white hover:bg-gray-100 transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-md rounded-lg inset-shadow-sm inset-shadow-gray-300 flex flex-col justify-center text-center p-6 sm:w-[362px] sm:h-[282px] sm:ml-5 mx-2">
+                <div className="bg-white hover:bg-gray-100 transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-md rounded-lg inset-shadow-sm inset-shadow-gray-300 flex flex-col justify-center text-center p-6 sm:w-[362px] sm:h-[282px] sm:ml-5 mx-4">
                     <div ref={anime3} className="w-full relative mb-10">
                       <img src="/assets/Group 31.png" alt="Icon 1" className="absolute  top-0 left-35 " />
                       <img src="/assets/Group 32.png" alt="Icon 1" className="absolute -top-2 left-38.5 " />
@@ -121,7 +121,7 @@ export default function Ourgoals() {
                 </div>
                 
                
-                  <div className="bg-white hover:bg-gray-100 transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-md rounded-lg inset-shadow-sm inset-shadow-gray-300 flex flex-col justify-center text-center p-6 sm:w-[362px] sm:h-[282px] sm:ml-5 mx-2">
+                  <div className="bg-white hover:bg-gray-100 transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-md rounded-lg inset-shadow-sm inset-shadow-gray-300 flex flex-col justify-center text-center p-6 sm:w-[362px] sm:h-[282px] sm:ml-5 mx-4">
 
                   <div ref={anime4} className="w-full relative mb-10">
                       <img src="/assets/blue circle.png" alt="Icon 2" className=" absolute  top-0 left-37" />
@@ -134,7 +134,7 @@ export default function Ourgoals() {
                   <h3 className="font-semibold text-[20px] mb-8 text-gray-700">Engineering Meets Empathy</h3>
                   <p className="text-sm text-gray-500 text-[16px]">Our Tech Is Grounded In Purpose And Built For Real-World Use.</p>
                 </div>
-                <div className="bg-white hover:bg-gray-100 transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-md rounded-lg inset-shadow-sm inset-shadow-gray-300 flex flex-col justify-center text-center p-6 sm:w-[362px] sm:h-[282px] sm:ml-5 mx-2">
+                <div className="bg-white hover:bg-gray-100 transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-md rounded-lg inset-shadow-sm inset-shadow-gray-300 flex flex-col justify-center text-center p-6 sm:w-[362px] sm:h-[282px] sm:ml-5 mx-4">
                   <div ref={anime5} className="w-full relative mb-10">
                       <img src="/assets/Ellipse 49.png" alt="Icon 1" className="absolute  top-0 left-35 " />
                       <img src="/assets/Vector.png" alt="Icon 1" className="absolute top-0.5 left-36.5 " />
@@ -150,7 +150,7 @@ export default function Ourgoals() {
           </div>
         </div>
         <div className="overflow-hidden whitespace-nowrap mt-8">
-          <div className="inline-block animate-marquee text-8xl font-extrabold text-black md:text-white soft-shadow">
+          <div className="inline-block animate-marquee sm:text-8xl text-4xl font-extrabold text-black md:text-white soft-shadow">
             Build faster. Launch smarter. No code required.
           </div>
         </div>

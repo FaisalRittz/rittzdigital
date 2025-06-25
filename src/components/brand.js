@@ -172,12 +172,12 @@ bottomImages.forEach((img, i) => {
     >
       <div
         ref={textRef}
-        className="absolute text-left w-full z-10 transition-opacity duration-300 opacity-100"
+        className="absolute  top-28 lg:top-96 text-left w-full z-10 transition-opacity duration-300 opacity-100"
       > 
         <p className="sm:text-[2rem] text-lg font-semibold text-gray-800">
           Behind The Brand
         </p>
-        <h2 className="sm:text-[2.5rem] text-[2.1rem] font-semibold leading-snug">
+        <h2 className="sm:text-[2.5rem] text-[2.1rem] font-semibold leading-[1.3] sm:leading-snug">
           We are not afraid. we are <br />
           your partners. <br />
           we build unique with you.
@@ -186,7 +186,7 @@ bottomImages.forEach((img, i) => {
 
       <div
         ref={imageRef}
-        className="absolute mr-[-4rem] transition-opacity duration-300  right-[12rem] w-60 h-60 bg-white rounded-md z-10 opacity-100"
+        className="absolute mr-[-4rem] transition-opacity duration-300  border-black bottom-20 sm:bottom-52 right-16 sm:right-[12rem] w-60 h-60 bg-white rounded-md z-10 opacity-100"
       >
         <img
           src="/assets/Rectangle 4206.png"
@@ -212,7 +212,7 @@ bottomImages.forEach((img, i) => {
 
       <div
         ref={bottomImageRef}
-        className="absolute top-[20rem] mr-[-54rem] transition-opacity duration-300  w-60 h-60 bg-white border border-yellow-500 rounded-md z-10 opacity-0"
+        className="absolute sm:top-[20rem] top-24 sm:mr-[-54rem] transition-opacity duration-300  w-60 h-60 bg-white border border-yellow-500 rounded-md z-10 opacity-0"
       >
         <img
           src="/assets/Rectangle 4206.png"
