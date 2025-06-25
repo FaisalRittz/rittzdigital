@@ -268,7 +268,7 @@ bottomImages.forEach((img, i) => {
 
         
         <div
-          className="bg-[#f5f0e3] rounded-[40px]  p-20 flex items-center justify-between h-full max-h-[488px]"
+          className="bg-[#f5f0e3] rounded-[40px]  p-20 flex items-center justify-between h-full top-20max-h-[488px]"
           style={{
             transform: "rotateX(90deg) translateZ(244px)",
             backfaceVisibility: "hidden",

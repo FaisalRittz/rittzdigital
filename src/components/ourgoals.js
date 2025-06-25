@@ -66,7 +66,7 @@ export default function Ourgoals() {
             <div className="relative z-10 ">
               <div>
                 {/* First box Div */}
-                <div className="flex sm:block mb-5 relative justify-center sm:justify-normal">
+                <div className="flex sm:block mb-5 mt-10 sm:mt-0 relative justify-center sm:justify-normal">
 
                  <div className="  flex sm:flex-row mt-20 flex-col gap-10">
                   <div className="bg-white  hover:bg-gray-100 transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-md rounded-lg inset-shadow-sm inset-shadow-gray-300 flex flex-col justify-center text-center p-6 sm:w-[362px] sm:h-[282px] sm:ml-5 mx-4">
@@ -93,15 +93,15 @@ export default function Ourgoals() {
 
                  </div>
 
-                <div className="text-right  absolute sm:-top-14 sm:right-2 -top-12 right-4">
+                <div className="text-right  absolute sm:-top-14  sm:right-2 -top-14 right-4">
                   <h2 className="font-bold mt-4">
                     <span className="text-green-500 text-5xl sm:text-[12vh]">O</span ><span className="text-gray-800 sm:text-[9vh] text-3xl">ur </span> <span className="text-gray-900 text-4xl sm:text-[9vh]">Goals</span>
                   </h2>
                   <div className="flex align-middle  justify-end">
                     <div className="h-auto flex align-center justify-center">
-                      <div className="h-0.5 w-14  sm:w-[111px] bg-gray-300 my-7  mx-1 "></div>
+                      <div className="h-0.5 w-14  sm:w-[111px] bg-gray-600 my-7  mx-1 "></div>
                     </div>
-                    <div className="text-sm text-gray-500 mt-1 text-right sm:text-left leading-[1.75]">Code And Rules,<br />Creativity and Passion.</div>
+                    <div className="text-sm text-black mt-1 text-right sm:text-left leading-[1.75]">Code And Rules,<br />Creativity and Passion.</div>
                   </div>
                 </div>
               </div>
