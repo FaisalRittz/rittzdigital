@@ -124,7 +124,12 @@ export default function Idea() {
 
         {/* Button */}
         <div className="w-full flex justify-center lg:justify-start">
-          <button className="w-full sm:w-[320px] md:w-[420px] lg:w-[457px] px-6 py-3 cursor-pointer text-sm border border-gray-400 text-black relative overflow-hidden group">
+          <a
+            href="https://nocodenest.vercel.app/"
+            target="_blank" // optional: open in new tab
+            rel="noopener noreferrer"
+            className="w-full sm:w-[320px] md:w-[420px] lg:w-[457px] px-6 py-3 cursor-pointer text-sm border border-gray-400 text-black relative overflow-hidden group inline-block text-center"
+          >
             <span
               className="absolute bottom-0 left-0 w-0 h-0 bg-black rounded-full transition-all duration-400 ease-out group-hover:w-[60rem] group-hover:h-[60rem]"
               style={{ transform: "translate(-50%, 50%)" }}
@@ -132,7 +137,7 @@ export default function Idea() {
             <span className="relative z-10 transition-all duration-300 group-hover:text-white">
               Explore Our Process
             </span>
-          </button>
+          </a>
         </div>
       </div>
 

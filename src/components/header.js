@@ -12,7 +12,6 @@ export default function Header() {
   return (
     <>
       <header className="w-full px-4 sm:px-6  md:px-10 py-3 pt-6 sm:py-4 md:py-5 flex items-center justify-between bg-transparent z-40">
-        {/* Logo */}
         <div className="flex items-center">
           <img
             src="/assets/rittz_logo.png"
@@ -21,7 +20,6 @@ export default function Header() {
           />
         </div>
 
-        {/* Right Controls */}
         <div className="flex items-center gap-3 sm:gap-4 md:gap-6">
           <button
             onClick={handleContactClick}
@@ -35,6 +33,21 @@ export default function Header() {
               Talk To Us
             </span>
           </button>
+
+          <a
+            href="https://nocodenest.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3 hidden sm:block sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm bg-emerald-500 text-white border border-emerald-600 rounded-md relative overflow-hidden group"
+          >
+            <span
+              className="absolute bottom-0 left-0 w-0 h-0 bg-emerald-600 rounded-full transition-all duration-300 ease-out group-hover:w-[60rem] group-hover:h-[60rem]"
+              style={{ transform: "translate(-50%, 50%)" }}
+            ></span>
+            <span className="relative z-10 transition-colors duration-200 font-semibold group-hover:text-white">
+              NoCodeNest
+            </span>
+          </a>
 
           <span className="text-sm hidden sm:block sm:text-base md:text-lg font-semibold text-black">
             Menu
@@ -50,7 +63,6 @@ export default function Header() {
         </div>
       </header>
 
-      {/* Contact Modal */}
       <AnimatePresence>
         {showContact && (
           <motion.div
