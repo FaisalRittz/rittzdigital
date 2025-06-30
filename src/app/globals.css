@@ -50,3 +50,31 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+
+.react-tel-input .country {
+  padding: 10px 16px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  color: white;
+}
+
+.react-tel-input .country:hover {
+  background-color: #2e2e2e;
+  color: #6e6868; /* 👈 text turns gray on hover */
+}
+
+.react-tel-input .country-list {
+  scrollbar-width: thin;
+  scrollbar-color: #555 transparent;
+}
+
+.react-tel-input .country-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.react-tel-input .country-list::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 4px;
+}
+
